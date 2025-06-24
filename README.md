@@ -1,94 +1,91 @@
-🏅 Olympics Power BI Dashboard
-An interactive Power BI project analyzing 120+ years of Olympic history, providing deep insights into countries, sports, athletes, and medal trends.
+🏅 Olympics Analysis Dashboard 
+📊 Project Overview
+This Power BI project analyzes 120+ years of Olympic history using interactive dashboards. It provides deep insights into athletes, countries, sports, and medal trends over time. The dashboard is designed to help users explore key patterns in global sports performance.
 
-📂 Project Overview
-This project focuses on building a comprehensive, dynamic, and interactive Power BI dashboard to explore the global performance in the Olympics over the years.
+📁 Dataset
+Source: 120 years of Olympic history: athletes and results
 
-The dashboard allows users to:
+Description: Contains detailed records of Olympic athletes, sports, events, medals, and participating countries from 1896 to 2016.
 
-Compare country-wise performances.
+🖥️ Dashboard Pages
+1️⃣ Overview Page
+Total athletes, medals, countries, and events
 
-Track athlete achievements.
+Timeline of Summer vs. Winter Olympics
 
-Analyze sports-specific medal distributions.
+Medal distribution by year
 
-Visualize global trends using maps and charts.
+2️⃣ Country Performance
+Total medals by year (with country selector)
 
-🎯 Objectives
-Perform end-to-end data cleaning using Python (Pandas).
+Top 5 sports for selected country
 
-Develop powerful DAX measures for dynamic reporting.
+Best performing athletes
 
-Enable interactive filtering and storytelling through Power BI visuals.
+Medal breakdown: Gold, Silver, Bronze
 
-Answer key analytical questions relevant to sports organizations and analysts.
+3️⃣ Athlete Insights
+Filter athletes by gender, age, country, sport
 
-📊 Key Features
-Summary KPIs: Total Medals, Athletes, Countries, Sports, Events.
+Youngest and oldest medalists
 
-Dynamic Slicers: Year, Season, Country, Sport, Gender.
+Athletes with the most medals
 
-Interactive Visuals: Drill-through, Tooltips, Global Medal Maps.
+4️⃣ Sports & Events Analysis
+Medal trends across sports over time
 
-Athlete Performance Dashboard: Top athletes, age distribution, gender insights.
+Event count by year
 
-Country Drill-down: Sport-wise and year-wise medal tracking.
+Most popular sports by participation
 
-Advanced DAX: Rank calculations, % share measures, custom age grouping.
+5️⃣ Global Map
+World map showing medals by country
 
-🗂️ Dataset
-Source: Kaggle – 120 Years of Olympic History: Athletes and Results
+Clickable country highlights with medal stats
 
-Files Used:
+❓ Key Questions Answered
+✅ Which country has won the most Olympic medals?
+✅ How has India’s performance evolved over time?
+✅ What are the top 10 medal-winning sports?
+✅ Which athletes have the highest medal count?
+✅ How does gender distribution vary across sports?
+✅ In which years were the most medals awarded?
+✅ What is the average age of gold medal winners?
 
-athlete_events.csv
+🛠️ Tools & Skills Demonstrated
+Power BI Desktop
 
-noc_regions.csv
+DAX (Data Analysis Expressions) for KPIs, rankings, and calculations
 
-Dataset Link: Kaggle Dataset
+Power Query for data cleaning and transformation
 
-🔧 Tools & Technologies
-Power BI (Dashboard Development)
+Interactive visuals: slicers, drill-through, tooltips
 
-DAX (Dynamic Calculations & Data Modeling)
+KPI indicators, trend lines, and storytelling with data
 
-Python (Pandas for Data Cleaning and Preprocessing)
+🚀 Highlights of DAX Usage
+Dynamic Top N measures (e.g. Top 5 sports, Top athletes)
 
-Power Query (Data Transformation)
+Age calculations for youngest/oldest medalists
 
-🧹 Data Cleaning (Python)
-Handled missing values using median imputation.
+Gender and medal distribution metrics
 
-Created new calculated columns:
+Year-wise medal growth trends
 
-Total Medals
+Custom tooltips and drill-through pages
 
-Age Groups (Teen, Adult, Senior)
+📂 How to Use
+1️⃣ Load the dataset into Power BI using Power Query.
+2️⃣ Apply data transformations (e.g., handle missing values, create calculated columns).
+3️⃣ Use the provided DAX measures for analysis.
+4️⃣ Explore the interactive pages with slicers for country, sport, gender, and year.
 
-Decade Column for temporal analysis
+🎯 Future Enhancements
+Include data from the latest Olympic Games (2020/2024)
 
-Removed duplicates and irrelevant records.
+Add Paralympics data for inclusive analysis
 
-Merged NOC regions with athlete events for country names.
+Integrate predictive analysis for future medal trends
 
-📈 DAX Highlights
-Total Medals, Gold/Silver/Bronze Counts
-
-Country and Sport Rankings
-
-Youngest and Oldest Medalist Metrics
-
-Medal % Share Calculations
-
-Dynamic Titles and Age Group Segmentation
-
-📋 Key Insights
-Which country has dominated the Olympics?
-
-How has India’s performance evolved over time?
-
-Top-performing sports and athletes for each country.
-
-Gender distribution trends over decades.
-
-Visual medal distribution across the globe.
+💡 Conclusion
+This project offers an end-to-end view of Olympic history, combining data analysis with rich visual storytelling. It’s ideal for showcasing Power BI skills in data modeling, DAX, and dashboard design for job applications or portfolios.
